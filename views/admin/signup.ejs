@@ -1,0 +1,18 @@
+ <div class="admin-register main-admin">
+        <h2>User Registration</h2>
+        <% if (typeof registerError !== 'undefined') { %>
+            <div class="error"><%= registerError %></div>
+        <% } %>
+        <form action="/admin/register" method="POST">
+            <div class="form-group">
+                <label for="reg-username">Username</label>
+                <input type="text" id="reg-username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="reg-password">Password</label>
+                <input type="password" id="reg-password" name="password" required>
+            </div>
+        
+            <button type="submit" class="btn">Register</button>
+        </form>
+    </div>
