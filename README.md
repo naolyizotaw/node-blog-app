@@ -18,6 +18,8 @@ A simple blog platform built with Node.js, Express, MongoDB, and EJS.
 - EJS (Embedded JavaScript Templates)
 - bcrypt (password hashing)
 - JWT (JSON Web Token)
+- cookie-parser (for handling cookies)
+- express-session (for session management)
 - Custom CSS
 
 ## Getting Started
